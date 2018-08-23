@@ -30,8 +30,8 @@ def excel2csv (excel_file, csv_file):
             csv_out.writerow(rowData)
 
 
-excel_file = '/Users/shobha.bhagwat/Downloads/India_Dashboard_Candidate.xlsx'
-csv_file = '/Users/shobha.bhagwat/Downloads/India_Dashboard_Candidate_test2.csv'
+excel_file = 'filename.xlsx'
+csv_file = 'filename.csv'
 
 if os.path.exists(csv_file):
     os.remove(csv_file)
