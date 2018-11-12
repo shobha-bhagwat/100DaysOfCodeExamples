@@ -1,1 +1,1 @@
-My first ML program
+This program deals with classification of iris flowers
